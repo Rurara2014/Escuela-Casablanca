@@ -1,0 +1,139 @@
+*{
+
+font-family: "Libre Bodoni", sans-serif;
+font-weight: 200;
+
+  }
+
+* {
+	margin:20px;
+	padding:100%;
+			}
+			
+.nav{
+	background-color: darkviolet;
+}	
+.nav__li {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	image-rendering: optimizeQuality;
+}
+
+.nav__li:hover > a {
+	color: skyblue;
+		  }
+
+.nav__li:hover {
+	color:darkblue ;
+		  }
+
+.nav__li a {
+	color: white;
+	text-decoration: none;
+}
+.nav__li i {
+	width: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+body {
+	background-image: url("imagenes/imagen5.jpeg");
+	margin: auto;
+}
+		ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:darkviolet;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:darkviolet;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+
+.caja{
+	display: inline-block;
+	margin: 25px;
+	width: 700px;
+	height: 500px;
+}
+
+.caja img{
+	height: 100%;
+	width: 100%;
+	border: 2px solid blue;
+	object-fit: cover;
+}
+.caja video{
+	height: 100%;
+	width: 100%;
+	border: 2px solid blue;
+	object-fit: cover;
+}
+.caja audio{
+	height: 20%;
+	width: 100%;
+	border: 2px solid blue;
+	object-fit: cover;
+}
+.footer {
+	color: red;
+	margin: auto;
+}
+.text-center{
+	text-align: center;
+}
+
+footer{
+	background-color: #EAFAF1;
+	color: darkviolet;
+	padding: 20px;
+	width: 98%;
+	border-radius: 5px;
+	margin: 20px;
+
+}
+footer p {
+	color: darkviolet;
+}
+
+@media only screen and 
+(max-width: 800px)
+{
+	div{
+		display: block;
+		width: 100%;
+	}
+	

@@ -1,0 +1,117 @@
+*{
+
+font-family: "Libre Bodoni", sans-serif;
+font-weight: 200;
+margin:20px;
+  }
+
+.nav{
+	background-color: darkviolet;
+}	
+.nav__li {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	image-rendering: optimizeQuality;
+}
+
+.nav__li:hover > a {
+	color: skyblue;
+		  }
+
+.nav__li:hover {
+	color:darkblue ;
+		  }
+
+.nav__li a {
+	color: white;
+	text-decoration: none;
+}
+.nav__li i {
+	width: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+body {
+	background-image: url("imagenes/imagen5.jpeg");
+	margin: auto;
+}
+
+* {
+				margin:0px;
+				padding:0px;
+			}
+			
+		ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:right;
+			}
+			
+			.nav li a {
+				background-color:darkviolet;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:darkviolet;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+div{
+	margin: 50px;
+}
+.primero{
+	color: skyblue;
+	font-weight: 200px;
+}
+	h1{
+		color: red;
+		margin:auto;
+	}
+	h2{
+		color: white;
+		margin: 40px;
+	}
+	div p{
+	color: white;
+	display: inline;
+	margin: 20px;	
+	}
+footer{
+	background-color: #EAFAF1;
+	color: darkviolet;
+	padding: 20px;
+	width: 98%;
+	border-radius: 5px;
+	margin: 20px;
+
+}
+footer p {
+	color: darkviolet;
+}
